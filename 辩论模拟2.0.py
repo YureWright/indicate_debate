@@ -10,7 +10,7 @@ import dashscope
 from dashscope.api_entities.dashscope_response import SpeechSynthesisResponse
 from dashscope.audio.tts_v2 import *
 from datetime import datetime
-dashscope.api_key = "sk-2a75d81da0274f579e9a69715bb1050e"  # 替换为你自己的 API Key
+dashscope.api_key = "YOUR_API"  # 替换为你自己的 API Key
 
 
 
@@ -78,8 +78,8 @@ def voice_func(text):
 
 # 初始化OpenAI客户端
 client = OpenAI(
-    api_key="sk-2a75d81da0274f579e9a69715bb1050e",
-    base_url="https://dashscope.aliyuncs.com/compatible-mode/v1"
+    api_key="YOUR_API",
+    base_url="YOUR_BASE_URL" #替换为你的api和base_url
 )
 
 
